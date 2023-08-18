@@ -16,6 +16,12 @@ Content-Type: application/json
   "password": "12345"
 }
 
+### Get the currently signed in user
+GET http://localhost:3000/auth/whoami
+
+### sign out
+POST http://localhost:3000/auth/signout
+
 ### find all users with a given email
 GET http://localhost:3000/auth?email=aaaa@aaaaa.com
 
