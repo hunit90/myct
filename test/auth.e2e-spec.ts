@@ -18,7 +18,7 @@ describe('Authentication system', () => {
   });
 
   it('handles a signup request', () => {
-    const email = 'asd34f@asdf.com';
+    const email = 'asd34fee@asdf.com';
 
     return request(app.getHttpServer())
       .post('/auth/signup')
